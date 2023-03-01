@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url("./Font-family/AstonMartinFlare_W_Rg.woff2") format('woff2')
+}
+
+/* Set initially all box-sizing to border box */
+* {
+    box-sizing: border-box;
+    font-family: 'MyWebFont';
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.red-color {
+    color: #fd2150;
+}
+
+.italic-syle {
+    font-style: italic;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*------------------ Start Styling Section We Create ---------------- */
+.We-create div.backcolor-1 {
+    background-color: rgb(26 25 25 / 47%);
+    background-repeat: none;
+    width: 100%;
+    height: 600px;
+}
+
+.We-create {
+    color: White;
+    background-image: url(./images/img1-backimg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Start Styling Header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header p {
+    margin: 2% 5%;
+}
+
+/* End Styling Header */
+
+/* Start Styling We Create-info */
+.sec-1-info {
+    margin: 20% 10%;
+    width: 37%;
+}
+
+.sec-1-info h1 {
+    font-size: 2.5em;
+}
+
+/* End Styling We Create-info */
+
+/*---------------------- End Styling Section We Create ---------------- */
+
+/*----------- Start Styling the Section the four-cards ----------------*/
+.fourcards {
+    text-align: center;
+    margin: 2%;
+    padding: 2% 0%;
+    /* background-color: #fd2150; */
+}
+
+.fourcards article {
+    box-shadow: 0.5px 0.5px 0.5px 1px gray;
+    padding: 2%;
+    margin: 2% 0;
+    background-color: white;
+}
+
+.fourcards p {
+    color: grey;
+}
+
+.fourcards-icon {
+    background-color: #fd2150;
+    width: fit-content;
+    margin: auto;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.fourcards-icon i {
+    font-size: 50px;
+    color: white;
+}
+
+/*---------------- End Styling the Section the four-cards--------- */
+
+/* --------------- Start Styling section the easy-way ------------- */
+.easy-way {
+    background-color: #f1f1f186;
+    /* #f0edee */
+    ;
+}
+
+.easy-way img {
+    max-width: 100%;
+}
+
+.easy-way-articles {
+    padding: 10% 3%;
+    padding-bottom: 2%;
+}
+
+.easy-way-article-1,
+.easy-way-article-1+div>article {
+    margin: 2% 0;
+    padding: 0 2%;
+    background-color: white;
+}
+
+.easy-way-articles div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.easy-way-articles div article {
+    width: 48%;
+}
+
+/* --------------- End Styling section the easy-way ------------- */
+
+/* --------------- Start four-items ----------------------------- */
+.four-items {
+    background: #000;
+    margin-bottom:2%;
+}
+
+.four-items img {
+    width: 100%;
+    /* filter:brightness(0.5); */
+    filter: grayscale(100);
+}
+
+.item-2,
+.item-4 {
+    color: gray;
+    padding: 1% 2%;
+    margin: 0;
+}
+
+/* --------------- Start four-items------------------- */
+
+/* --------------- Start Section products --------------*/
+.products {
+    margin: 3%;
+}
+
+.products .info {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.products figure img {
+    width: 100%;
+}
+
+/* --------------- End Section products --------------*/
+
+/* --------------  Style the section the new-product -------------- */
+.new-product {
+    margin: 3%;
+    padding: 3%;
+}
+
+.new-product div {
+    margin: auto;
+}
+
+.new-product figure {
+    margin: 0%;
+}
+
+.new-product figure img {
+    max-width: 100%;
+}
+
+.new-product ol {
+    padding: 5%;
+    color: grey;
+}
+
+/* --------------  End  the section the new-product -------------- */
+
+/*---------------- Start Styling ever-tried ------------------------*/
+.ever-tried {
+    background-color: #ECECEA;
+    padding: 2% 5%;
+    padding-bottom: 0;
+}
+
+.ever-tried img {
+    /* width:100%; */
+    width: 106%;
+    height: 343px;
+}
+
+/*---------------- End Styling ever-tried ------------------------*/
+
+/* --------------- Start Style section our-products -------------------- */
+.our-products {
+    background-image: url(./images/img15-backimg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-products div {
+    /* background-color: rgb(26 25 25 / 47%); 
+     */
+    background: rgba(0, 0, 0, 0.767);
+    padding: 1%;
+}
+
+.our-products div article {
+    color: white;
+    margin: 5% auto;
+    width: min-content;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    padding: 3%;
+}
+
+.our-products div article h1 {
+    font-size: 2em;
+}
+
+/* --------------- End section our-products -------------------- */
+
+/*---------------- Start Styling Maps part --------------------- */
+.maps {
+    background-color: #000;
+    color: white;
+    padding: 5%;
+}
+
+.maps article {
+    padding: 2% 5%;
+    ;
+}
+
+.maps article p:nth-child(3) {
+    /* color:rgba(136, 81, 59, 0.849); */
+    color: #a89398;
+}
+
+/*---------------- End Styling Maps part --------------------- */
+
+/*---------------- Start Styling Footer -----------------------*/
+footer {
+    background-color: #313131;
+    color: rgb(207, 207, 207);
+    text-align: center;
+    padding: 1%;
+}
+
+footer div {
+    margin: 1% auto;
+}
+
+/*---------------- End Styling Footer -----------------------*/
+
+
+
+
+/*========================== Tablets (min-width:768px) ===================*/
+@media(min-width:768px) {
+    .fourcards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        height: 750px;
+    }
+
+    .fourcards div {
+        position: relative;
+        width: 48%;
+    }
+
+    .fourcards article {
+        /* width: 48%; */
+        position: absolute;
+        top:-100px;
+    }
+
+    /* .card-1 {
+        top: -100px
+    }
+
+    .card-2 {
+        left: 50%; 
+         top: -100px;
+    }
+
+    .card-3 {
+        top: 320px;
+    }
+
+    .card-4 {
+        top: 320px;
+        left: 50%;
+    } */
+
+    .easy-way{
+        margin-top:-100px;
+    }
+    .We-create {
+        position: relative;
+        z-index: -1;
+    }
+
+    .four-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .four-items>* {
+        width: 45%;
+        padding-top: 0;
+    }
+
+    /* Start products */
+    .product-figures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .product-figures figure {
+        width: 46%;
+        margin: 1% 2%;
+    }
+
+    .products img {
+        height: 400px;
+    }
+
+    /* End products */
+
+    .new-product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .new-product>* {
+        width: 50%;
+    }
+
+    .ever-tried {
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+
+    .ever-tried>* {
+        width: 46%;
+        margin: 0% 2%;
+        height: 700px;
+    }
+
+    .ever-tried section div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ever-tried section div>* {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .ever-tried img {
+        height: 700px;
+        width: 116%;
+    }
+
+    .our-products div article {
+        width: 80%;
+        font-size: 1.25em;
+    }
+
+    .maps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .maps article {
+        width: 25%;
+        margin: auto;
+    }
+
+    .maps iframe {
+        width: 60%;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer>* {
+        width: 33.33%;
+    }
+}
+
+/*========================== Laptops-1 large (min-width:1020px) ===================*/
+@media(min-width:1020px) {
+
+    /* Start Styling the easy-way */
+    .easy-way {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .easy-way img {
+        max-width: 50%;
+    }
+
+    .easy-way-articles {
+        width: 50%;
+    }
+
+    .four-items>* {
+        width: 25%;
+    }
+
+    /* End Styling the easy-way */
+}
+
+/*========================== Laptops-2 extra large (min-width:1440px) ===================*/
+@media(min-width:1440px) {
+    .We-create div.backcolor-1 {
+        height: 1000px;
+    }
+
+    .sec-1-info {
+        width: 18%;
+    }
+
+    .fourcards {
+        height: 320px;
+    }
+    .fourcards div{
+        width: 23%;
+    }
+    .fourcards article {
+        width: 100%;
+        /* position: absolute; */
+        top: -200px;
+    }
+
+    /* .card-2 {
+        left: 25%;
+        
+    }
+
+    .card-3 {
+        left: 50%;
+        
+    }
+
+    .card-4 {
+        left: 75%;
+        
+    } */
+
+    .easy-way img {
+        width: 40%;
+        height: 500px;
+
+    }
+
+    .easy-way-articles {
+        width: 60%;
+        padding-top: 5%;
+    }
+
+    .four-items,
+    .four-items>*,
+    .four-items img {
+        height: 325px;
+    }
+
+    .product-figures figure {
+        width: 21%;
+    }
+
+    .ever-tried img {
+        height: 670px;
+        width: 116.25%;
+    }
+
+    .ever-tried>* {
+        height: 670px;
+    }
+
+    .our-products div article {
+        width: 70%;
+        font-size: 1.5em;
+    }
+}
+
+/*========================== extra extra large (min-width:2560px) ===================*/
+@media(min-width:2560px) {}
